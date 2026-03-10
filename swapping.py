@@ -1,5 +1,4 @@
-l,b = input().split()
-l=int(l)
-b=int(b)
-area=l*b
-print (area)
+a=5
+b=4
+a,b=b,a
+print("a=",a,"b=",b)
