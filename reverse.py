@@ -1,5 +1,2 @@
-num="gunturu"
-rev=""
-for i in str(num):
-    rev=i+rev
-print(rev)
+for i in range(2,51,2):
+    print(i)

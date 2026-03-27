@@ -1,7 +1,5 @@
-num=456
-total=0
-while(num>0):
-    i=num%10
-    total+=i
-    num//=10
-print(total)
+num=345
+sum=0
+for i in str(num):
+    sum=sum+int(i)
+print(sum)
